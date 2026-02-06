@@ -76,7 +76,7 @@ Pair a serif display font (warmth, tradition) with a clean sans-serif (readabili
 ## Nantes Identity
 Subtle, not tourist-brochure level:
 - Tour Lu as a possible illustration element or easter egg
-- Reference to the nearby Marché de Talensac (the "Marché" in their name)
+- The "Marché" in their name comes from the old MIN (Marché d'Intérêt National) — not Talensac
 - The neighborhood near Cité des Congrès — urban but charming
 
 ## Logo Usage

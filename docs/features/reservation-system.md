@@ -22,10 +22,15 @@ Start simple, iterate based on Paul & Matthias's feedback.
 | Email | Email | Yes | Valid email |
 | Message | Textarea | No | Max 500 chars |
 
-### Service Hours (to confirm with Paul & Matthias)
-- Lunch: 12:00 - 14:00
-- Dinner: 19:00 - 22:00
-- Closed days: TBD (probably Sunday and/or Monday)
+### Service Hours (from Google/TheFork data — confirm with Paul & Matthias)
+- **Lunch** (Mon-Fri): 12:00 - 14:30
+- **Dinner** (Thu-Fri only): 19:30 - 22:30
+- **Closed**: Saturday & Sunday
+- **Groups on demand**: evening service Mon-Wed available for private groups
+
+### Closed Days in Date Picker
+- Saturday and Sunday: blocked
+- Dinner time slots: only show for Thursday & Friday
 
 ### Submission Flow
 ```

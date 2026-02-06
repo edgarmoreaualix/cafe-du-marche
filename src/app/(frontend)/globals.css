@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/*
+ * Le Café du Marché — Brand Design Tokens
+ * Warm French brasserie: olive green, cream, varnished wood, wine-red accents
+ */
+
+@theme {
+  /* Primary — Olive */
+  --color-olive-deep: #5C5C28;
+  --color-olive: #8B8B3E;
+  --color-olive-light: #A8A85C;
+
+  /* Neutral Warm */
+  --color-cream: #E8DFC0;
+  --color-cream-light: #F5F0E1;
+  --color-parchment: #FAF7F0;
+  --color-wood-dark: #3E2723;
+  --color-wood-medium: #5D4037;
+
+  /* Accent */
+  --color-wine-red: #722F37;
+  --color-wine-light: #8B4049;
+  --color-gold: #C4A44A;
+
+  /* Functional */
+  --color-success: #4A7C59;
+  --color-error: #B44040;
+}

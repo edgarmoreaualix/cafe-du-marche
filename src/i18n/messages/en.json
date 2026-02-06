@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Today's Menu",
+    "wines": "Wine List",
+    "reservation": "Book a Table",
+    "group": "Group Dining",
+    "about": "About Us"
+  },
+  "common": {
+    "reserve": "Book a table",
+    "callUs": "Give us a call",
+    "seeMenu": "See today's menu",
+    "seeWines": "Discover our wines",
+    "comingSoon": "Coming soon",
+    "phase2Note": "This page is coming together — Phase 2 underway.",
+    "language": "Language",
+    "french": "Français",
+    "english": "English"
+  },
+  "home": {
+    "hero": "Welcome to Le Café du Marché",
+    "subtitle": "Market-fresh, homemade cuisine, steps from the Cité des Congrès.",
+    "menuTeaser": "Today's menu",
+    "reserveCta": "Book your table"
+  },
+  "menu": {
+    "title": "Today's Menu",
+    "noMenu": "Today's menu will be available shortly.",
+    "formula": "Set Menus",
+    "starters": "Starters",
+    "mains": "Main Courses",
+    "desserts": "Desserts"
+  },
+  "wines": {
+    "title": "Wine List",
+    "glass": "Glass",
+    "bottle": "Bottle",
+    "coupDeCoeur": "Our pick"
+  },
+  "reservation": {
+    "title": "Book a Table",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Number of guests",
+    "name": "Your name",
+    "phone": "Phone number",
+    "email": "Email",
+    "message": "Message (optional)",
+    "submit": "Send my request",
+    "success": "Your reservation request has been sent!",
+    "groupNote": "For groups larger than 20, check out our group dining options."
+  },
+  "group": {
+    "title": "Group Dining",
+    "subtitle": "Host your event at our restaurant",
+    "perPerson": "per person",
+    "guests": "guests",
+    "contact": "Get in touch"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "The story of Paul & Matthias"
+  },
+  "footer": {
+    "address": "Address",
+    "hours": "Opening Hours",
+    "contact": "Contact",
+    "followUs": "Follow us"
+  }
+}

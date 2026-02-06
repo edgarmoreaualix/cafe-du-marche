@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "La Carte du Jour",
+    "wines": "La Carte des Vins",
+    "reservation": "Réserver",
+    "group": "Repas de Groupe",
+    "about": "À Propos"
+  },
+  "common": {
+    "reserve": "Réserver une table",
+    "callUs": "Appelez-nous",
+    "seeMenu": "Voir le menu du jour",
+    "seeWines": "Découvrir nos vins",
+    "comingSoon": "Bientôt disponible",
+    "phase2Note": "Cette page sera bientôt complète — Phase 2 en cours.",
+    "language": "Langue",
+    "french": "Français",
+    "english": "English"
+  },
+  "home": {
+    "hero": "Bienvenue au Café du Marché",
+    "subtitle": "Cuisine du marché, fait maison, à deux pas de la Cité des Congrès.",
+    "menuTeaser": "Le menu du jour",
+    "reserveCta": "Réservez votre table"
+  },
+  "menu": {
+    "title": "La Carte du Jour",
+    "noMenu": "Le menu du jour sera bientôt disponible.",
+    "formula": "Formules",
+    "starters": "Entrées",
+    "mains": "Plats",
+    "desserts": "Desserts"
+  },
+  "wines": {
+    "title": "La Carte des Vins",
+    "glass": "Verre",
+    "bottle": "Bouteille",
+    "coupDeCoeur": "Coup de cœur"
+  },
+  "reservation": {
+    "title": "Réserver une Table",
+    "date": "Date",
+    "time": "Heure",
+    "guests": "Nombre de personnes",
+    "name": "Votre nom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "message": "Message (optionnel)",
+    "submit": "Envoyer ma demande",
+    "success": "Votre demande de réservation a bien été envoyée !",
+    "groupNote": "Pour un groupe de plus de 20 personnes, consultez nos formules groupe."
+  },
+  "group": {
+    "title": "Repas de Groupe",
+    "subtitle": "Privatisez notre restaurant pour vos événements",
+    "perPerson": "par personne",
+    "guests": "personnes",
+    "contact": "Nous contacter"
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "L'histoire de Paul & Matthias"
+  },
+  "footer": {
+    "address": "Adresse",
+    "hours": "Horaires",
+    "contact": "Contact",
+    "followUs": "Suivez-nous"
+  }
+}

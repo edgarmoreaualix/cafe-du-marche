@@ -1,0 +1,48 @@
+import { buildConfig } from 'payload'
+import { postgresAdapter } from '@payloadcms/db-postgres'
+import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import sharp from 'sharp'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+import { Users } from './collections/Users'
+import { Media } from './collections/Media'
+import { DailyMenu } from './collections/DailyMenu'
+import { WineCard } from './collections/WineCard'
+import { GroupMeal } from './collections/GroupMeal'
+import { Reservation } from './collections/Reservation'
+import { SiteSettings } from './globals/SiteSettings'
+import { About } from './globals/About'
+
+const filename = fileURLToPath(import.meta.url)
+const dirname = path.dirname(filename)
+
+export default buildConfig({
+  admin: {
+    user: Users.slug,
+    importMap: {
+      baseDir: path.resolve(dirname),
+    },
+  },
+  collections: [Users, Media, DailyMenu, WineCard, GroupMeal, Reservation],
+  globals: [SiteSettings, About],
+  editor: lexicalEditor(),
+  secret: process.env.PAYLOAD_SECRET || '',
+  typescript: {
+    outputFile: path.resolve(dirname, 'payload-types.ts'),
+  },
+  db: postgresAdapter({
+    pool: {
+      connectionString: process.env.DATABASE_URI || '',
+    },
+  }),
+  sharp,
+  localization: {
+    locales: [
+      { label: 'Français', code: 'fr' },
+      { label: 'English', code: 'en' },
+    ],
+    defaultLocale: 'fr',
+    fallback: true,
+  },
+})

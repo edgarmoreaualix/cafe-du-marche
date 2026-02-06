@@ -26,4 +26,87 @@
   /* Functional */
   --color-success: #4A7C59;
   --color-error: #B44040;
+
+  /* Fonts */
+  --font-heading: var(--font-dm-serif-display), Georgia, 'Times New Roman', serif;
+  --font-body: var(--font-dm-sans), 'Helvetica Neue', Arial, sans-serif;
+
+  /* Typography Scale */
+  --text-hero: 3.5rem;
+  --text-section: 2.25rem;
+  --text-card: 1.5rem;
+  --text-body-lg: 1.125rem;
+
+  /* Border Radius */
+  --radius-card: 0.75rem;
+  --radius-button: 0.5rem;
+
+  /* Shadows */
+  --shadow-card: 0 2px 8px rgba(62, 39, 35, 0.08);
+  --shadow-card-hover: 0 8px 24px rgba(62, 39, 35, 0.14);
+}
+
+/* Base typography */
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Subtle paper noise texture overlay */
+.texture-paper {
+  position: relative;
+}
+.texture-paper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Decorative French bistro divider */
+.divider-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+.divider-ornament::before,
+.divider-ornament::after {
+  content: '';
+  height: 1px;
+  width: 2rem;
+  background: var(--color-gold);
+}
+.divider-ornament::before {
+  mask-image: linear-gradient(to left, black, transparent);
+}
+.divider-ornament::after {
+  mask-image: linear-gradient(to right, black, transparent);
+}
+
+/* Hide scrollbars (for gallery strip) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

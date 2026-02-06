@@ -21,8 +21,30 @@
   "home": {
     "hero": "Welcome to Le Café du Marché",
     "subtitle": "Market-fresh, homemade cuisine, steps from the Cité des Congrès.",
+    "heroTitle": "Le Café du Marché",
+    "heroSubtitle": "Market-fresh, homemade cuisine, steps from the Cité des Congrès in Nantes. Since 1946.",
+    "menuCta": "See the menu",
     "menuTeaser": "Today's menu",
-    "reserveCta": "Book your table"
+    "menuTeaserTitle": "Today's Menu",
+    "menuTeaserSubtitle": "Our dishes change daily, following the market's rhythm.",
+    "reserveCta": "Book your table",
+    "reserveButton": "Book a table",
+    "aboutTitle": "A Nantes institution",
+    "aboutText": "Since 1946, Le Café du Marché has been delighting the people of Nantes with generous, homemade cuisine. Paul and Matthias carry on this tradition with passion — fresh market produce, a terrine served at the table to your heart's content, and the kind of welcome that makes you feel right at home.",
+    "aboutLink": "Discover our story",
+    "reserveTitle": "Your table awaits",
+    "reserveText": "Book in a few clicks or give us a call. We'll take care of the rest.",
+    "orCallUs": "or call us",
+    "galleryTitle": "The atmosphere",
+    "photoPlaceholder": "Photo coming soon",
+    "hoursTitle": "Opening hours",
+    "lunchLabel": "Lunch",
+    "lunchSchedule": "Mon — Fri: 12:00 – 2:30 pm",
+    "dinnerLabel": "Dinner",
+    "dinnerSchedule": "Thu & Fri: 7:30 – 10:30 pm",
+    "addressTitle": "Find us",
+    "viewMap": "View on map",
+    "phoneTitle": "Phone"
   },
   "menu": {
     "title": "Today's Menu",
@@ -66,6 +88,18 @@
     "address": "Address",
     "hours": "Opening Hours",
     "contact": "Contact",
-    "followUs": "Follow us"
+    "followUs": "Follow us",
+    "tagline": "Market-fresh, homemade cuisine, since 1946.",
+    "contactTitle": "Contact",
+    "hoursTitle": "Opening Hours",
+    "lunchLabel": "Lunch",
+    "lunchDays": "Mon — Fri: 12:00 – 2:30 pm",
+    "dinnerLabel": "Dinner",
+    "dinnerDays": "Thu & Fri: 7:30 – 10:30 pm",
+    "closedWeekend": "Closed on weekends",
+    "followTitle": "Follow us",
+    "reserveLink": "Book a table",
+    "allRights": "All rights reserved",
+    "legal": "Legal notice"
   }
 }

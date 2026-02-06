@@ -77,9 +77,7 @@ export const DailyMenu: CollectionConfig = {
     {
       name: 'note',
       type: 'richText',
-      admin: {
-        placeholder: 'Note du jour (optionnel)',
-      },
+      label: 'Note du jour (optionnel)',
     },
     {
       name: 'status',

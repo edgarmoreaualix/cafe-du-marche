@@ -21,8 +21,30 @@
   "home": {
     "hero": "Bienvenue au Café du Marché",
     "subtitle": "Cuisine du marché, fait maison, à deux pas de la Cité des Congrès.",
+    "heroTitle": "Le Café du Marché",
+    "heroSubtitle": "Cuisine du marché, fait maison, à deux pas de la Cité des Congrès à Nantes. Depuis 1946.",
+    "menuCta": "Voir le menu",
     "menuTeaser": "Le menu du jour",
-    "reserveCta": "Réservez votre table"
+    "menuTeaserTitle": "La Carte du Jour",
+    "menuTeaserSubtitle": "Nos plats changent chaque jour, au gré du marché.",
+    "reserveCta": "Réservez votre table",
+    "reserveButton": "Réserver une table",
+    "aboutTitle": "Une institution nantaise",
+    "aboutText": "Depuis 1946, Le Café du Marché régale les Nantais avec une cuisine généreuse et faite maison. Paul et Matthias perpétuent cette tradition avec passion — des produits frais du marché, une terrine servie à volonté, et ce sens de l'accueil qui fait qu'on se sent chez soi.",
+    "aboutLink": "Découvrir notre histoire",
+    "reserveTitle": "Votre table vous attend",
+    "reserveText": "Réservez en quelques clics ou appelez-nous directement. On s'occupe du reste.",
+    "orCallUs": "ou appelez-nous",
+    "galleryTitle": "L'ambiance",
+    "photoPlaceholder": "Photo à venir",
+    "hoursTitle": "Horaires",
+    "lunchLabel": "Déjeuner",
+    "lunchSchedule": "Lun — Ven : 12h00 – 14h30",
+    "dinnerLabel": "Dîner",
+    "dinnerSchedule": "Jeu & Ven : 19h30 – 22h30",
+    "addressTitle": "Nous trouver",
+    "viewMap": "Voir sur la carte",
+    "phoneTitle": "Téléphone"
   },
   "menu": {
     "title": "La Carte du Jour",
@@ -66,6 +88,18 @@
     "address": "Adresse",
     "hours": "Horaires",
     "contact": "Contact",
-    "followUs": "Suivez-nous"
+    "followUs": "Suivez-nous",
+    "tagline": "Cuisine du marché, fait maison, depuis 1946.",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "lunchLabel": "Déjeuner",
+    "lunchDays": "Lun — Ven : 12h00 – 14h30",
+    "dinnerLabel": "Dîner",
+    "dinnerDays": "Jeu & Ven : 19h30 – 22h30",
+    "closedWeekend": "Fermé le week-end",
+    "followTitle": "Suivez-nous",
+    "reserveLink": "Réserver",
+    "allRights": "Tous droits réservés",
+    "legal": "Mentions légales"
   }
 }
